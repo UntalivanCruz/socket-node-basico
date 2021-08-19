@@ -15,6 +15,8 @@ const socketController = (socket) => {
 
     })
 
+    socket.emit('lectura',10);
+
 }
 
 

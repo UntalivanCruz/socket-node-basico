@@ -28,6 +28,10 @@ socket.on('enviar-mensaje', (payload) => {
     console.log( payload )
 })
 
+socket.on('lectura',(payload)=>{
+    console.log(payload)
+})
+
 
 btnEnviar.addEventListener( 'click', () => {
 
